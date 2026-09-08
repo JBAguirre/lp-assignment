@@ -510,7 +510,7 @@ h1, h2, h3 {
 
 /* Get It Sold Section */
 .get-it-sold-section {
-    padding: var(--padding-y) var(--padding-x);
+    padding: 80px var(--padding-x); /* Updated: 80px top and bottom padding */
     background-color: var(--bg-neutral);
 }
 
@@ -867,13 +867,13 @@ h1, h2, h3 {
     background-color: #8c4530;
 }
 
-/* Map Section with 120px Side Padding */
+/* Map Section with 60px top/bottom padding and variable side padding */
 .contact-map-container {
     width: 100%;
     height: 450px;
     overflow: hidden;
     border-top: 1px solid #dcd3c4;
-    padding: 0 var(--padding-x); /* Uses your 120px variable for left and right padding */
+    padding: 60px var(--padding-x); /* Updated: 60px top and bottom padding */
     box-sizing: border-box;
     background-color: var(--bg-neutral); /* Matches the page background in the padded gutters */
 }
